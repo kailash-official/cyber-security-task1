@@ -1,30 +1,17 @@
-# Cyber Security Task 1
+# Task 2 - Vulnerability Assessment using Nessus
 
-## Network Scanning and Reconnaissance
+## Objective
+Perform a vulnerability assessment using Nessus Essentials.
 
-### Objective
-To identify active hosts, open ports, services, and operating system information using Nmap and Zenmap.
+## Tool Used
+- Nessus Essentials
 
-### Tools Used
-- Nmap
-- Zenmap
+## Result
+- Critical: 0
+- High: 0
+- Medium: 0
+- Low: 0
+- Informational: 100
 
-### Target IP
-192.168.56.1
-
-### Scan Results
-
-| Port | Service | Status |
-|--------|---------|---------|
-| 135 | MSRPC | Open |
-| 139 | NetBIOS | Open |
-| 445 | Microsoft-DS (SMB) | Open |
-
-### Findings
-- The target host was active.
-- Open ports 135, 139, and 445 were detected.
-- Microsoft Windows services were identified.
-- SMB file-sharing services were running.
-
-### Conclusion
-The network scan successfully identified active services and open ports on the target system.
+## Conclusion
+The vulnerability assessment was completed successfully.
