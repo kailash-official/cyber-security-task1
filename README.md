@@ -146,3 +146,109 @@ Successfully completed web application penetration testing activities using Burp
 * README.md
 
 
+
+
+
+# Task 4 - Password Cracking
+
+## Objective
+
+The objective of this task is to evaluate password strength by performing password hash cracking using John the Ripper. This task helps in understanding how weak passwords can be recovered through dictionary-based attacks and emphasizes the importance of strong password security practices.
+
+## Tools Used
+
+* Kali Linux
+* John the Ripper
+* Terminal
+* Custom Wordlist
+
+## Procedure
+
+### Step 1: Verify Installation
+
+Verified that John the Ripper was installed and working correctly in Kali Linux.
+
+```bash
+john --version
+```
+
+### Step 2: Generate Password Hash
+
+Generated an MD5 hash for a sample password using:
+
+```bash
+echo -n "password123" | md5sum
+```
+
+Generated Hash:
+
+```text
+482c811da5d5b4bc6d497ffa98491e38
+```
+
+### Step 3: Create Hash File
+
+Stored the generated hash in a file named:
+
+```text
+hashes.txt
+```
+
+### Step 4: Create Custom Wordlist
+
+Created a custom wordlist named:
+
+```text
+passwords.txt
+```
+
+Contents:
+
+```text
+123456
+admin
+welcome
+password123
+qwerty
+```
+
+### Step 5: Perform Password Cracking
+
+Executed John the Ripper using the custom wordlist:
+
+```bash
+john --format=raw-md5 --wordlist=passwords.txt hashes.txt
+```
+
+### Step 6: Display Cracked Password
+
+Displayed the recovered password:
+
+```bash
+john --show --format=raw-md5 hashes.txt
+```
+
+## Result
+
+John the Ripper successfully cracked the MD5 hash using the provided wordlist and recovered the original password.
+
+**Recovered Password:**
+
+```text
+password123
+```
+
+## Learning Outcomes
+
+* Learned the fundamentals of password hashing.
+* Understood dictionary-based password attacks.
+* Gained practical experience using John the Ripper.
+* Learned how weak passwords can be easily compromised.
+* Understood the importance of using strong and unique passwords.
+
+## Conclusion
+
+This task successfully demonstrated password auditing and password hash recovery using John the Ripper. The experiment highlighted the risks associated with weak passwords and reinforced the importance of implementing strong password security practices.
+
+
+
