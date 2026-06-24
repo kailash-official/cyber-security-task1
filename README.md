@@ -293,3 +293,42 @@ Learned how to analyze Linux logs, monitor authentication events, identify SSH a
 
 
 
+
+
+# Task 6 - Malware Analysis (Static Analysis)
+
+## Objective
+
+To perform basic malware analysis using VirusTotal and understand how files are scanned for malicious activity.
+
+## Tools Used
+
+* Kali Linux
+* VirusTotal
+
+## Procedure
+
+1. Created a sample text file for analysis.
+2. Uploaded the file to VirusTotal.
+3. VirusTotal scanned the file using multiple security engines.
+4. Reviewed the analysis results and file details.
+5. Documented the findings.
+
+## Findings
+
+* The sample file was successfully uploaded and scanned.
+* VirusTotal completed the analysis without errors.
+* The file was marked as "Undetected".
+* No malicious behavior was identified.
+
+## Result
+
+The file was successfully analyzed using VirusTotal. No security vendor detected the file as malicious.
+
+## Learning Outcome
+
+Learned how to perform static malware analysis using VirusTotal, understand file hashes, and interpret malware scanning results.
+
+
+
+
