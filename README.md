@@ -332,3 +332,45 @@ Learned how to perform static malware analysis using VirusTotal, understand file
 
 
 
+
+# Task 7 - Secure Code Review
+
+## Objective
+
+To review source code and identify security vulnerabilities that may affect application security.
+
+## Tools Used
+
+* Kali Linux
+* Python
+* Manual Static Code Analysis
+
+## Procedure
+
+1. Created a sample vulnerable Python program.
+2. Reviewed the source code manually.
+3. Identified security weaknesses in the code.
+4. Documented the findings.
+5. Developed a more secure version of the program.
+6. Compared the vulnerable and secure implementations.
+
+## Findings
+
+* Hardcoded username detected.
+* Hardcoded password detected.
+* Password stored in plain text.
+* No password hashing mechanism used.
+* Weak authentication practice identified.
+
+## Result
+
+The source code was successfully reviewed and multiple security vulnerabilities were identified and documented. A secure version of the code was also created.
+
+## Learning Outcome
+
+Learned how to identify common coding vulnerabilities, perform manual code reviews, and implement basic secure coding practices.
+
+
+
+
+
