@@ -252,3 +252,44 @@ This task successfully demonstrated password auditing and password hash recovery
 
 
 
+
+
+
+# Task 5 - Log Analysis for Intrusion Detection
+
+## Objective
+
+To analyze system logs and identify suspicious activities or potential intrusion attempts.
+
+## Tools Used
+
+* Kali Linux
+* Journalctl
+* Linux System Logs
+
+## Procedure
+
+1. Opened the Kali Linux terminal.
+2. Reviewed user login history using log records.
+3. Analyzed system logs using the `journalctl` command.
+4. Searched for SSH-related events in the logs.
+5. Checked for failed login attempts and suspicious activities.
+6. Documented the findings.
+
+## Findings
+
+* User login records were successfully reviewed.
+* SSH-related events were identified and analyzed.
+* System logs were examined for suspicious activities.
+* No critical intrusion activity was detected during the analysis.
+
+## Result
+
+Successfully analyzed Linux system logs and authentication records to detect potential security incidents and monitor system activity.
+
+## Learning Outcome
+
+Learned how to analyze Linux logs, monitor authentication events, identify SSH activities, and perform basic intrusion detection through log analysis.
+
+
+
